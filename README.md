@@ -367,7 +367,7 @@ From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP ad
 
 </p>
 <p>
-After Restarting Client one and logging in as orginial user,join it to the domain.
+After Restarting Client one and logging in as orginial user,join it to the domain. Your computer will restart if done Correctly.
 </p>
 <br />
 
@@ -402,53 +402,12 @@ After Restarting Client one and logging in as orginial user,join it to the domai
 
 
 <p>
-PUT YOUR IMAGE HERE
+<img width="490" alt="image" src="https://github.com/MeharamSal/configure-ad/assets/173064050/8a0b032d-bbb5-48f5-a38d-cfd046cbd96a">
+
 </p>
 <p>
-textwritingwords
-</p>
-<br />
+Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p>
-PUT YOUR IMAGE HERE
-</p>
-<p>
-textwritingwords
 </p>
 <br />
 
@@ -485,11 +444,64 @@ textwritingwords
 
 
 
+
+
 <p>
-PUT YOUR IMAGE HERE
+<img width="1143" alt="image" src="https://github.com/MeharamSal/configure-ad/assets/173064050/c616a17c-05ac-40bc-ae45-df62ca7b8d6f">
+<img width="274" alt="image" src="https://github.com/MeharamSal/configure-ad/assets/173064050/6081e701-3108-48a4-8f54-37bdfd789cd9">
+
+
 </p>
 <p>
-textwritingwords
+Log into Client-1 as your new User 
+</p>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+<img width="827" alt="image" src="https://github.com/MeharamSal/configure-ad/assets/173064050/f9b6e296-b444-4cfe-bfbd-185cabb7bcc0">
+<img width="421" alt="image" src="https://github.com/MeharamSal/configure-ad/assets/173064050/a57826f5-adcb-4ea1-b556-c2eb0da8eeee">
+<img width="285" alt="image" src="https://github.com/MeharamSal/configure-ad/assets/173064050/cd6c162a-21fc-4f68-90e7-dfe5485a8812">
+
+
+
+</p>
+<p>
+navigate to “Remote Desktop”
+Allow “domain users” access to remote desktop
+
 </p>
 <br />
 
