@@ -79,7 +79,7 @@ Create the Domain Controller VM (Windows Server 2022).
 
 </p>
 <p>
-Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created
+Create a new virtual machine (VM) for the client, using Windows 10, and name it "Client-1". Ensure that you utilize the identical Resource Group and Virtual Network (VNet) that were previously established.
 </p>
 <br />
 
@@ -113,7 +113,7 @@ Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with 
 
 </p>
 <p>
-Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
+Login to the Domain Controller and enable ICMPv4 on the local Windows firewall
 
 
 </p>
@@ -141,7 +141,7 @@ Login to DC-1 and install Active Directory Domain Services
 
 </p>
 <p>
-Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+Promote as a DC: Setup a new forest as mydomain.com (can be anything, remember what it is)
 
 </p>
 <br />
@@ -174,7 +174,7 @@ Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remem
 
 </p>
 <p>
-Restart and then log back into DC-1 as user: mydomain.com\labuser
+After restarting, log back into DC-1 using the credentials for the user account: mydomain.com\labuser.
 
 </p>
 <br />
@@ -209,7 +209,7 @@ Restart and then log back into DC-1 as user: mydomain.com\labuser
 
 </p>
 <p>
-In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES” &"_ADMINS"
+Within Active Directory Users and Computers (ADUC), establish two new Organizational Units (OUs): one named "_EMPLOYEES" and another named "_ADMINS". (Or whatever you choose, Just make sure it matches later in the Powershell Script)
 
 </p>
 <br />
